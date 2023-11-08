@@ -1,0 +1,39 @@
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+float: right;
+  gap: 15px;
+  overflow-y: scroll;
+  max-height: 340px;
+  margin-top: 10px;
+  width: 100%;
+  padding: 20px;
+
+
+}
+.timeago{
+  font-size: 10px;
+  color: rgb(245, 239, 239);
+}
+.messageBox{
+  background-color: rgb(47, 47, 48);
+  padding: 5px 8px;
+  border-radius: 5px;
+
+
+}
+.content{
+  font-size: 15px;
+}
+.sended{
+  float: right;
+  background-color: rgb(4, 127, 62);
+  max-width: 30%;
+  overflow-wrap: anywhere;
+
+}
+.recieved{
+  float: left;
+  max-width: 30%;
+  overflow-wrap: anywhere;
+}

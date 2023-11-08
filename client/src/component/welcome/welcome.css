@@ -1,0 +1,14 @@
+.welcome_container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+.welcome_container img{
+    width: 150px;
+    border-radius: 50%;
+
+}

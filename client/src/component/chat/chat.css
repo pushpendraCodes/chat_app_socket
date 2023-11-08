@@ -1,0 +1,25 @@
+.chat_container{
+    background-color: rgb(4, 4, 49);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat_wrapper{
+    /* padding: 10px; */
+    width: 85%;
+    background-color: rgb(1, 1, 13);
+    height: 80%;
+    display: flex;
+    border-radius: 5px;
+
+
+}
+.left{
+    flex: 1.2;
+    background-color: rgb(46, 4, 85);
+    border-radius: 5px;
+}
+.right{
+    flex: 3;
+}
