@@ -86,10 +86,14 @@ export default function ChatContainer({
     return index;
   }
 
+
   useEffect(() => {
     if (socket.current) {
       socket.current.on("msg-recieve", async (data) => {
         const { from } = data;
+
+        console.log(data);
+        console.log(currentChat, "setCurrentChat");
 
         if (data.from === currentChat._id) {
           setArrivalMessage({ fromSelf: false, message: data.msg });

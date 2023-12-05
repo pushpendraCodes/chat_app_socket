@@ -63,7 +63,7 @@ export default function Contact({ contacts, changeChat, socket }) {
       });
 
       await getallUserunreadMsgs();
-      await updateUnreadMsgs();
+      await updateUnreadMsgs("b");
     } catch (error) {
       console.log(error);
     }

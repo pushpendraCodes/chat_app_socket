@@ -75,6 +75,8 @@ export default function Register() {
       if (data.status === false) {
         toast.error(data.msg, toastOptions);
       }
+
+      console.log(data,"data")
       if (data.status === true) {
         localStorage.setItem(
           "chat_app_user",

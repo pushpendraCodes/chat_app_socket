@@ -34,7 +34,7 @@ module.exports.register = async (req, res, next) => {
     });
     const userWithoutPassword = { ...user };
     delete userWithoutPassword.password;
-    return res.json({ status: true, userWithoutPassword });
+    return res.json({ status: true, user });
   } catch (ex) {
     next(ex);
   }

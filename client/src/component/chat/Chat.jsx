@@ -67,6 +67,9 @@ export const Chat = () => {
     setCurrentChat(chat);
   };
 
+
+
+
   return (
     <div className="chat_container">
       <div className="chat_wrapper">
