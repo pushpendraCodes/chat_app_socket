@@ -4,7 +4,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import RegisterPage from "./pages/RegisterPage";
 import { Chat } from "./component/chat/Chat";
 import SetAvatar from "./pages/SetAvtar";
-import Login from "./component/auth/login";
+import Login from "./component/auth/Login";
 
 function App() {
   const router = createBrowserRouter([
